@@ -13,3 +13,23 @@ div {
   background-color: gray;
   margin: 1rem;
 }
+
+.backdrop {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  inset: 0;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  inset: 0;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  background-color: green;
+}
