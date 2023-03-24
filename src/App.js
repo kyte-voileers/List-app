@@ -1,5 +1,7 @@
 import React from 'react';
-import Todo from './components/test';
+import Todo from './components/todo';
+
+
 import './style.css';
 
 export default function App() {
